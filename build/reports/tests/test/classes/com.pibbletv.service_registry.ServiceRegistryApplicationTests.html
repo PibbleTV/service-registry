@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.846s</div>
+<div class="counter">0.831s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">contextLoads()</td>
-<td class="success">0.846s</td>
+<td class="success">0.831s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,8 +87,8 @@
 <div class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>23:27:13.056 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.pibbletv.service_registry.ServiceRegistryApplicationTests]: ServiceRegistryApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-23:27:13.195 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.pibbletv.service_registry.ServiceRegistryApplication for test class com.pibbletv.service_registry.ServiceRegistryApplicationTests
+<pre>17:35:55.935 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.pibbletv.service_registry.ServiceRegistryApplicationTests]: ServiceRegistryApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:35:56.061 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.pibbletv.service_registry.ServiceRegistryApplication for test class com.pibbletv.service_registry.ServiceRegistryApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -99,17 +99,17 @@
 
  :: Spring Boot ::                (v3.4.4)
 
-2025-04-21T23:27:13.989+02:00  INFO 11724 --- [service_registry] [    Test worker] c.p.s.ServiceRegistryApplicationTests    : Starting ServiceRegistryApplicationTests using Java 17.0.12 with PID 11724 (started by hristo in D:\Individual Assignment\PibbleTV-Backend\service-registry)
-2025-04-21T23:27:13.990+02:00  INFO 11724 --- [service_registry] [    Test worker] c.p.s.ServiceRegistryApplicationTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2025-04-21T23:27:15.374+02:00  INFO 11724 --- [service_registry] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=601f5b05-c3ef-30e1-95ff-9907d51ba113
-2025-04-21T23:27:15.965+02:00  INFO 11724 --- [service_registry] [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-04-21T23:27:17.177+02:00  WARN 11724 --- [service_registry] [    Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-04-21T23:27:17.425+02:00  INFO 11724 --- [service_registry] [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-04-21T23:27:17.465+02:00  INFO 11724 --- [service_registry] [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-04-21T23:27:17.467+02:00  INFO 11724 --- [service_registry] [    Test worker] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2025-04-21T23:27:17.469+02:00  INFO 11724 --- [service_registry] [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1745270837468 with initial instances count: 0
-2025-04-21T23:27:17.519+02:00  INFO 11724 --- [service_registry] [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2025-04-21T23:27:17.521+02:00  WARN 11724 --- [service_registry] [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Cannot parse service URI http://service-registry :8761/eureka/
+2025-05-13T17:35:56.910+02:00  INFO 9524 --- [service-registry] [    Test worker] c.p.s.ServiceRegistryApplicationTests    : Starting ServiceRegistryApplicationTests using Java 17.0.12 with PID 9524 (started by hristo in D:\Individual Assignment\PibbleTV-Backend\service-registry)
+2025-05-13T17:35:56.911+02:00  INFO 9524 --- [service-registry] [    Test worker] c.p.s.ServiceRegistryApplicationTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-05-13T17:35:58.131+02:00  INFO 9524 --- [service-registry] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=601f5b05-c3ef-30e1-95ff-9907d51ba113
+2025-05-13T17:35:58.651+02:00  INFO 9524 --- [service-registry] [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-13T17:35:59.854+02:00  WARN 9524 --- [service-registry] [    Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-13T17:36:00.089+02:00  INFO 9524 --- [service-registry] [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-05-13T17:36:00.120+02:00  INFO 9524 --- [service-registry] [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-05-13T17:36:00.122+02:00  INFO 9524 --- [service-registry] [    Test worker] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-05-13T17:36:00.124+02:00  INFO 9524 --- [service-registry] [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1747150560123 with initial instances count: 0
+2025-05-13T17:36:00.177+02:00  INFO 9524 --- [service-registry] [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-05-13T17:36:00.179+02:00  WARN 9524 --- [service-registry] [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Cannot parse service URI http://service-registry :8761/eureka/
 
 java.net.URISyntaxException: Illegal character in authority at index 7: http://service-registry :8761/eureka/
 	at java.base/java.net.URI$Parser.fail(URI.java:2974) ~[na:na]
@@ -272,12 +272,12 @@ java.net.URISyntaxException: Illegal character in authority at index 7: http://s
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
 
-2025-04-21T23:27:17.533+02:00  INFO 11724 --- [service_registry] [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://service-registry :8761/eureka/]
-2025-04-21T23:27:17.688+02:00  INFO 11724 --- [service_registry] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2025-04-21T23:27:17.688+02:00  INFO 11724 --- [service_registry] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2025-04-21T23:27:17.688+02:00  INFO 11724 --- [service_registry] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2025-04-21T23:27:17.688+02:00  INFO 11724 --- [service_registry] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2025-04-21T23:27:17.740+02:00  WARN 11724 --- [service_registry] [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Cannot parse service URI http://service-registry :8761/eureka/
+2025-05-13T17:36:00.189+02:00  INFO 9524 --- [service-registry] [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://service-registry :8761/eureka/]
+2025-05-13T17:36:00.356+02:00  INFO 9524 --- [service-registry] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-05-13T17:36:00.356+02:00  INFO 9524 --- [service-registry] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-05-13T17:36:00.356+02:00  INFO 9524 --- [service-registry] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-05-13T17:36:00.356+02:00  INFO 9524 --- [service-registry] [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-05-13T17:36:00.405+02:00  WARN 9524 --- [service-registry] [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Cannot parse service URI http://service-registry :8761/eureka/
 
 java.net.URISyntaxException: Illegal character in authority at index 7: http://service-registry :8761/eureka/
 	at java.base/java.net.URI$Parser.fail(URI.java:2974) ~[na:na]
@@ -439,18 +439,18 @@ java.net.URISyntaxException: Illegal character in authority at index 7: http://s
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69) ~[gradle-worker.jar:na]
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74) ~[gradle-worker.jar:na]
 
-2025-04-21T23:27:17.780+02:00  INFO 11724 --- [service_registry] [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://service-registry :8761/eureka/
-2025-04-21T23:27:17.794+02:00  INFO 11724 --- [service_registry] [    Test worker] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2025-04-21T23:27:17.794+02:00  INFO 11724 --- [service_registry] [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2025-04-21T23:27:17.899+02:00  INFO 11724 --- [service_registry] [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-04-21T23:27:18.024+02:00  INFO 11724 --- [service_registry] [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE_REGISTRY with eureka with status UP
-2025-04-21T23:27:18.044+02:00  INFO 11724 --- [service_registry] [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2025-04-21T23:27:18.044+02:00  INFO 11724 --- [service_registry] [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2025-04-21T23:27:18.045+02:00  INFO 11724 --- [service_registry] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2025-04-21T23:27:18.045+02:00  INFO 11724 --- [service_registry] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2025-04-21T23:27:18.045+02:00  INFO 11724 --- [service_registry] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2025-04-21T23:27:18.045+02:00  INFO 11724 --- [service_registry] [    Test worker] c.p.s.ServiceRegistryApplicationTests    : Started ServiceRegistryApplicationTests in 4.543 seconds (process running for 6.067)
-2025-04-21T23:27:18.048+02:00  INFO 11724 --- [service_registry] [      Thread-12] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-05-13T17:36:00.434+02:00  INFO 9524 --- [service-registry] [    Test worker] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://service-registry :8761/eureka/
+2025-05-13T17:36:00.447+02:00  INFO 9524 --- [service-registry] [    Test worker] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-05-13T17:36:00.447+02:00  INFO 9524 --- [service-registry] [    Test worker] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-05-13T17:36:00.534+02:00  INFO 9524 --- [service-registry] [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-05-13T17:36:00.638+02:00  INFO 9524 --- [service-registry] [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-REGISTRY with eureka with status UP
+2025-05-13T17:36:00.657+02:00  INFO 9524 --- [service-registry] [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-05-13T17:36:00.658+02:00  INFO 9524 --- [service-registry] [      Thread-12] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-05-13T17:36:00.658+02:00  INFO 9524 --- [service-registry] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-05-13T17:36:00.658+02:00  INFO 9524 --- [service-registry] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-05-13T17:36:00.658+02:00  INFO 9524 --- [service-registry] [      Thread-12] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-05-13T17:36:00.659+02:00  INFO 9524 --- [service-registry] [    Test worker] c.p.s.ServiceRegistryApplicationTests    : Started ServiceRegistryApplicationTests in 4.237 seconds (process running for 5.814)
+2025-05-13T17:36:00.661+02:00  INFO 9524 --- [service-registry] [      Thread-12] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
 </pre>
 </span>
 </div>
@@ -462,7 +462,7 @@ java.net.URISyntaxException: Illegal character in authority at index 7: http://s
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at Apr 21, 2025, 11:27:19 PM</p>
+<a href="https://www.gradle.org">Gradle 8.13</a> at May 13, 2025, 5:36:01 PM</p>
 </div>
 </div>
 </body>
