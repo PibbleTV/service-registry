@@ -40,6 +40,7 @@ jobs:
         run: |
           docker push ghcr.io/pibbletv/pibbletv-service-registry:latest
 
+
       - name: Test pulling image from GHCR
         run: |
           docker pull ghcr.io/pibbletv/pibbletv-service-registry:latest
